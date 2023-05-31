@@ -15,9 +15,9 @@ function App(){
     <Router>
       <Routes>
         <Route path="definitiva/" exact element={<Login/>}/>
-        <Route path="definitiva/Registro" element={<Registro/>}/>
-        <Route path="definitiva/Home" element={<Home/>}/>
-        <Route path="definitiva/Bridge" element={<Bridge/>}/>
+        <Route path="/Registro" element={<Registro/>}/>
+        <Route path="/Home" element={<Home/>}/>
+        <Route path="/Bridge" element={<Bridge/>}/>
       </Routes>
     </Router>
   );
