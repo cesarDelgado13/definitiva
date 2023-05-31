@@ -33,10 +33,10 @@ function Registro(){
 
     const submitPost = () => {
         Axios.post('http://localhost:8891/create', {name: name, lastName: lastName, email:email, password:password, isAdmin:isAdmin})
-        navigate("/")
+        navigate("definitiva/")
     }
     const regresar = () => {
-        navigate("definitva/")
+        navigate("definitiva/")
     }
 
     return(

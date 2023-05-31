@@ -197,7 +197,7 @@ function Home() {
 
     //Funcion de navegacion
     const login = () => {
-        navigate("/")
+        navigate("definitiva/")
     }
 
     //Funcion de navegacion
