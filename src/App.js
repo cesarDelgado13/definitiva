@@ -14,10 +14,10 @@ function App(){
     // Aqui va a ser la nevagacion
     <Router>
       <Routes>
-        <Route path="/" exact element={<Login/>}/>
-        <Route path="/Registro" element={<Registro/>}/>
-        <Route path="/Home" element={<Home/>}/>
-        <Route path="/Bridge" element={<Bridge/>}/>
+        <Route path="definitiva/" exact element={<Login/>}/>
+        <Route path="definitiva/Registro" element={<Registro/>}/>
+        <Route path="definitiva/Home" element={<Home/>}/>
+        <Route path="definitiva/Bridge" element={<Bridge/>}/>
       </Routes>
     </Router>
   );
