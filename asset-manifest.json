@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/definitiva/static/css/main.073c9b0a.css",
-    "main.js": "/definitiva/static/js/main.e2a031d4.js",
+    "main.css": "/definitiva/static/css/main.f2e53a89.css",
+    "main.js": "/definitiva/static/js/main.575b425e.js",
     "static/js/787.980805a9.chunk.js": "/definitiva/static/js/787.980805a9.chunk.js",
-    "static/media/logo.svg": "/definitiva/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/grettel_6.jpeg": "/definitiva/static/media/grettel_6.fc657c783a9bfea850d7.jpeg",
+    "static/media/grettel_7.jpeg": "/definitiva/static/media/grettel_7.f32bdd3cb3d24f76673b.jpeg",
+    "static/media/grettel_5.png": "/definitiva/static/media/grettel_5.b67ca93f6ef3a817fd9c.png",
+    "static/media/login.jpeg": "/definitiva/static/media/login.46cf963961db07b0d4b5.jpeg",
+    "static/media/grettel_3.jpeg": "/definitiva/static/media/grettel_3.e62afd80b2de6c846f53.jpeg",
+    "static/media/grettel_1.jpeg": "/definitiva/static/media/grettel_1.3b50ca66bc3c2d509808.jpeg",
+    "static/media/grettel_4.jpeg": "/definitiva/static/media/grettel_4.6c46a2ad0dfa613f9d96.jpeg",
     "index.html": "/definitiva/index.html",
-    "main.073c9b0a.css.map": "/definitiva/static/css/main.073c9b0a.css.map",
-    "main.e2a031d4.js.map": "/definitiva/static/js/main.e2a031d4.js.map",
+    "main.f2e53a89.css.map": "/definitiva/static/css/main.f2e53a89.css.map",
+    "main.575b425e.js.map": "/definitiva/static/js/main.575b425e.js.map",
     "787.980805a9.chunk.js.map": "/definitiva/static/js/787.980805a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e2a031d4.js"
+    "static/css/main.f2e53a89.css",
+    "static/js/main.575b425e.js"
   ]
 }
