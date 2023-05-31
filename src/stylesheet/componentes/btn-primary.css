@@ -1,0 +1,8 @@
+.btn-primary-style{
+    width: 150px;
+    min-width: auto;
+    padding: 5px 0px;
+    border: 2px solid var(--main-color-blue);
+    background-color: white;
+    border-radius: 10px;
+}

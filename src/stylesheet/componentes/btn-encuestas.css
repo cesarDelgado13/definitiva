@@ -1,0 +1,39 @@
+.buttonsEncuestas{
+    /* margin: 5px; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.buttonsEncuestas h3{
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+.buttonsEncuestasCotainer{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.btn-encuestas-style{
+    background-color: var(--main-color-blue);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    color: aliceblue;
+}
+.btn-encuestas-style:hover{
+    background-color: var(--hover-color);
+    width: 30%;
+    border: none;
+    cursor: pointer;
+}

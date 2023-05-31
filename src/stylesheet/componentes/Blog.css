@@ -1,0 +1,56 @@
+/* .div-blog{
+    width: auto;
+    height: fit-content;
+    border-radius: 5px;
+} */
+
+.blog-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+/* Encabezado */
+.blog-contain h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* texto principal */
+
+.blog-contain p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Imagen */
+
+.img-card-blog{
+    width: 50%;
+    height: 50%;
+}
+
+
+.img-card-blog img{
+    height: 100%;
+    width: 100%;
+}
+
+.blog-contain h3{
+    align-self: flex-start;
+    font-weight: 400;
+}
+
+.blog-contain h4{
+    align-self: flex-end;
+    font-weight: 200;
+}
+
+
+/* Estilos par parrafos */
+.style-arrow{
+    padding-left: 40px;
+}

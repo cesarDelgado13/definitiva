@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Login from "./views/login";
+import Registro from "./views/registro";
+import Home from "./views/Home";
+import Bridge from "./views/bridge";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Corregido <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+//Estilos
+import './App.css'
+
+function App(){
+  
+  return(
+    // Aqui va a ser la nevagacion
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Login/>}/>
+        <Route path="/Registro" element={<Registro/>}/>
+        <Route path="/Home" element={<Home/>}/>
+        <Route path="/Bridge" element={<Bridge/>}/>
+      </Routes>
+    </Router>
   );
 }
 

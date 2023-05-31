@@ -1,31 +1,8 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +12,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+:root{
+  --main-color-blue: #E86A33; /*0e3a53-537188-E86A33*/
+  --main-color: #ffffff;
+  --titles-color: #E86A33; /*5388a7*/
+  --card-color: rgb(249, 245, 245); /*f8f8f8*/
+  --encuestas-color: #FFA559; /*f8f8f8*/
+  --hover-color: #FFA559; /*f8f8f8*/
+  /* --color-pop-up: #0e3a53; */
+  /* --card-color: rgba(240, 248, 255,8); */
+  /* --card-shadow: -2px 10px 20px 10px rgba(15, 15, 15, 0.908); */
+  --card-shadow: -1px 8px 10px 5px rgba(34, 34, 34, 0.659);
+  --line-separator: #E86A33;
+  --border-color-line: 3px solid var(--main-color-blue);
 }

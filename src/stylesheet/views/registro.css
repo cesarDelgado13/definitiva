@@ -1,0 +1,92 @@
+.main-container-registro{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center;
+    height: 100vh;
+    padding: 0px 50px 0 50px;
+}
+/* tamaños 
+% relativo a su padre
+vh vh es total de la pantalla
+rem relativo a root
+em relativo al padre
+*/
+
+.header{
+    background-color: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--main-color-blue);
+}
+
+.form{
+    width: 250px;
+    height: 70%;
+    border: None; 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid var(--main-color-blue);
+    border-radius: 5px;
+    
+} 
+
+.form2{
+    background-color: var(--main-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8em;
+    width: 40%;
+}
+
+.divButton{
+    margin: 30px 0px;  
+    align-items: center;
+    justify-content: center;
+}
+
+.divButton h4{
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.img-registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-blue);
+    height: 100%;
+    width: 100%;
+    border: none;
+
+}
+
+.img_registro2{
+    display: flex;
+    background-color: var(--main-color);
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    height: 350px;
+}
+
+.img-registro img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Input generico */
+.input-generico{
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid var(--main-color-blue);
+    outline-style: none;
+}

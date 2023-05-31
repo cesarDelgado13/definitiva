@@ -1,0 +1,51 @@
+.div-card{
+    box-shadow: var(--card-shadow);
+    background-color: var(--card-color);
+    width: 65%;
+    max-width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border: var(--border-color-line);
+    padding: 2%;
+}
+
+/* Encabezado */
+.div-card h1{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* texto principal */
+
+.div-card p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Imagen */
+
+.img-card{
+    width: 20%;
+    height: 20%;
+}
+
+
+.img-card img{
+    height: 100%;
+    width: auto;
+}
+
+/* fuente */
+
+.div-card h3{
+    font-weight: 400;
+}
+
+.div-card h4{
+    text-align: right;
+    font-weight: 200;
+}
