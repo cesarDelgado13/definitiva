@@ -36,7 +36,7 @@ function Registro(){
         navigate("/")
     }
     const regresar = () => {
-        navigate("/")
+        navigate("definitva/")
     }
 
     return(
@@ -62,7 +62,7 @@ function Registro(){
                         <p> Confirmar contraseña :</p><input className='input-generico' placeholder = '****' type="password" name='pwd2' required/>
                     </div>
                     <div className='divButton'>
-                        <BtnPrimary funcion={submitPost} ruta={'/'} name={'Registrarse'}/>
+                        <BtnPrimary funcion={submitPost} ruta={'definitiva/'} name={'Registrarse'}/>
                         <h4>ó</h4>
                         <BtnPrimary funcion={regresar} name={'Inicia Sesion'}/>
                     </div> 
